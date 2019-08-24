@@ -42,11 +42,10 @@ python manage.py runserver
 And navigate to http://localhost:8000/api to see the landing page.
 
 ## Validate
-
 The format of the URL for the validate function looks like:
----
+```
 http://localhost:8000/api/validate?number=<your_number_here>
----
+```
 Where `<your_number_here>` gets replaced with the credit card number you'd like to validate. If the number is valid,
 you'll get back a JSON object with:
 - Whether the number is valid
@@ -59,11 +58,10 @@ If the card number is not valid, you'll get back a similar response, but all of 
 will be set to null. Try it out and see what you think!
 
 ## Generate
-
 Similar to validate, the format of the URL looks like:
----
+```
 http://localhost:8000/api/generate?iin=<your_iin_here>
----
+```
 Where `<your_iin_here>` gets replaced with the Issuer Identification Number you'd like your generated card number to
 start with. If the IIN is valid, you'll get back a JSON object with the same information as a valid call to validate,
 except the card number you get will be completely random :0 Otherwise, you'll get back an error message:
