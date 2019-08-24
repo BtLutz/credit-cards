@@ -42,6 +42,7 @@ python manage.py runserver
 And navigate to http://localhost:8000/api to see the landing page.
 
 ## Validate
+
 The format of the URL for the validate function looks like:
 ---
 http://localhost:8000/api/validate?number=<your_number_here>
@@ -58,6 +59,7 @@ If the card number is not valid, you'll get back a similar response, but all of 
 will be set to null. Try it out and see what you think!
 
 ## Generate
+
 Similar to validate, the format of the URL looks like:
 ---
 http://localhost:8000/api/generate?iin=<your_iin_here>
