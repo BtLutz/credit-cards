@@ -66,3 +66,6 @@ except the card number you get will be completely random :0 Otherwise, you'll ge
 ```
 {"error": "IINs should be only digits and either length one or two. Try 65!"}
 ```
+
+## Conclusion
+Hopefully you like the project. It's the product of more than a few hours of hard work. I tried my best to keep to the highest development standards I know of.
