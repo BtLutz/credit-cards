@@ -2,7 +2,7 @@ atomicwrites==1.3.0
 attrs==19.1.0
 baluhn==0.1.2
 colorama==0.4.1
-Django==2.2.4
+Django==2.2.13
 importlib-metadata==0.19
 more-itertools==7.2.0
 packaging==19.1
